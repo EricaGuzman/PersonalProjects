@@ -1,0 +1,43 @@
+
+body{
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+	background: linear-gradient(to right, #e6ffff, #3333ff);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+	
+.wrap{
+	width: 1020px;
+	margin: 0 auto;
+	padding: 20px;
+	background-image: url('texture.jpg');
+}
+ul {
+    margin: 0 0 10px !important;
+}
+
+label {
+    width: 10em;
+    float: left;
+}
+.error {
+	color: red;
+}
+fieldset {
+    margin: 0 0 20px;
+    border: 1px solid #999;
+}
+.form-row {
+    margin: 0 0 10px;
+}
+input[type="submit"] {
+    margin: 20px 0;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+

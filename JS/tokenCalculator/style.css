@@ -1,0 +1,8 @@
+body  
+	{
+		background-image: url("paper.JPEG");
+		background-color: #cccccc;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+	}

@@ -1,0 +1,70 @@
+Question 1) What best defines a "programming language"? 
+A) It allows us to control a computer.
+B) It allows us to make a calculation.
+C) It allows to execute a program.
+D) It allows us to express an algorithm.
+A
+2
+Question 2) Which of these is an input device? 
+A) Keyboard 
+B) Speaker 
+C) Monitor
+D) DiskDrive
+A
+4
+Question 3) Which of these symbols is used for a comment
+A) // 
+B) \" \" 
+C) >= 
+D) $
+A
+6
+Question 4) The if statement is used to create a __________ _________,which allows a program to have more than one path of execution. 
+A) System algorithm 
+B) Decision structure 
+C) Pseudocode
+D) Source code
+B
+8
+Question 5) You can use a______Operator to create short espressions that work like if-else statements.
+A) Sequential
+B) Unique
+C) Variable
+D) Conditional
+D
+10
+Question 6) Which of the following would increment the value of the number?
+A) number += 1 
+B) number -= 1
+C) value = value-- 
+D) number = number--
+A
+10
+Question 7. Which of the following is false? The do-while:
+A) Is a post-test loop 
+B) Must be terminated with a semi-colon 
+C) Does not evaluate the expression until the end of the iteration 
+D) Is a pre-test loop
+D
+12
+Question 8. This type of method does not return a value:
+A) null
+B) void
+C) empty
+D) anonymous
+B
+14
+Question 9. This statement causes a method to end and sends a value back to the statement that called the method.
+A) end
+B) send
+C) exit
+D) return
+D
+16
+Question 10. The last subscript in an array is always _________.
+A) 100
+B) 0
+C) -1
+D) 1 less than the number of elements
+D
+18

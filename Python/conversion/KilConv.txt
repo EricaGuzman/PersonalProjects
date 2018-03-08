@@ -1,0 +1,18 @@
+#erica guzman
+#This program calculates the number of miles traveled based on user input of kilometers traveled
+
+#Algorithm
+#............
+#Define main
+#Declare and initilaize float variables
+	#userName
+	#Kilometers
+	#miles
+	#conversion =  0.621371
+#display "Welcome to the miles conversion program!\n Enter the Kilometers travelled and I convert it to miles! "
+#set userName to input "What is your name?"
+#set Kilometers to hold user input "How many kilometers did you travel?"
+#calculate (miles = Kilometers divided by conversion)
+#display "Great job ",userName, "\n", kilometers , " kilometers equals " , miles ," miles!", 
+			"\nThank you for using my program, keep up the good work!"
+ 
