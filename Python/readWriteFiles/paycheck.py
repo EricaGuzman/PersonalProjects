@@ -1,5 +1,4 @@
-#Erica guzman
-#Exam 2 practice
+﻿#Erica guzman
 #This program will prompt the user fir an employee sales then calculate the weekly gross pay,
 #deductions and net pay.
 

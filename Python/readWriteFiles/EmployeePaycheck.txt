@@ -1,0 +1,10 @@
+******* Employee Paycheck *******
+----------------------------------------
+Base pay:		 $400.00
+Sales:			 $2,000.00
+Commission:		 $120.00
+Gross Pay:		 $520.00
+Deductions:
+	Social Security: $31.20
+	Federal Tax:	 $62.40
+Net Pay:		 $426.40
