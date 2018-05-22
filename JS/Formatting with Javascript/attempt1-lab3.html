@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+		<script>
+			function calculateDays()
+			{
+			 //get user's input
+				x = document.getElementById("birth"),
+				bDay = "";	//variable for user input		
+					for (i = 0; i < x.length; i++) 
+					{
+						bDay += x.elements[i].value + ","; // save input
+						
+					}
+				var start = new Date(bDay); //format into dates
+				var today = new Date();//currentDate
+				//validate user input
+				<!-- var month = ["jan","feb","mar", "apr","jun" ,"jul","aug","sep","oct","nov","dec"]; -->
+				<!-- for(let i = 0;i < month.length;i++) -->
+				<!-- { -->
+					<!-- if(start.getMonth()=== month[i]) -->
+					<!-- { -->
+						<!-- console.log('its good!'); -->
+					<!-- } -->
+				<!-- } -->
+								
+				//create variables to calculate days and months
+				var diff =0,//for the difference between both dates
+				days =1000 * 60 * 60 * 24, //for calculating days in milliseconds
+				
+				//calculate age
+				diff = today-start ;				
+				//calculate next birthday
+				var nextBD = new Date(bDay);
+				nextBD.setFullYear(today.getFullYear() + 1);
+				//calculate daysLeft until next birthday
+				var daysLeft = nextBD - today;//this is in milliseconds
+				
+				//Page output here:
+				document.getElementById("passed").innerHTML = "Ok! this means that you are "+(Math.floor(((((diff / 1000) / 60) / 60) /24) / 365))+" years old!<br/>"+
+					"There are "+(Math.floor(daysLeft/days))+" Days to your next birthday!";
+				
+			}
+			</script>
+    <form id="birth">
+	  <h2>What month were you born?</h2><input name="birthMonth" type="text" size="20">
+	  <h2>What day were you born?</h2><input name="birthday" type="text" size="20">
+	  <h2>Your birth year?</h2> <input name="birthYear" type="text" size="20">
+	</form>
+		<br/><button onclick="calculateDays()">Next Birthday:</button>
+						<p id="passed"></p>
+    <noscript>
+      &lt;Your browser does not support JavaScript! Check your browser setting&gt;
+    </noscript>
+	</body>
+   </html>

@@ -1,0 +1,16 @@
+body {
+    background-image: url("bday.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	font-size: 30px;
+	font-family:Sans-serif;
+}
+main{
+	 padding-top: 300px;
+	 text-align:center;
+	 text-indent:20px;
+}
+input{
+	font-size:30px;
+}
