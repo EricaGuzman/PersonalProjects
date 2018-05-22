@@ -1,0 +1,29 @@
+body {
+	background-image:url("https://images.alphacoders.com/478/thumb-1920-478518.jpg");
+	font-family: sans-serif;
+	color: #d22d2d;
+	font-size: 18px;
+	line-height: 1.6;
+	
+}
+fieldset {
+	border:1px solid red;
+	background-image: url("paper.jpg");
+	}
+h1{
+	text-align: center;
+}
+.title {
+	font-family: sans-serif;
+	color: #99ccff;
+	text-align: center;
+}
+.button{
+	padding: 30px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
